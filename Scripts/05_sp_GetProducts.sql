@@ -1,0 +1,16 @@
+use MCCatalog
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE sp_GetProducts
+
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	select * from Product
+END
+GO
