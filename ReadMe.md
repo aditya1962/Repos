@@ -17,6 +17,12 @@ To begin configuring, clone the repo as follows:
 git clone https://github.com/aditya1962/Repos
 ```
 
+Then install all node packages as follows
+
+```cmd
+npm install
+```
+
 Then, open appsettings.json in WebAPIMC folder. Replace the connection string with that used with your SQL Server instance. For example, in the following change the server name, user id and password.
 
 ```json
