@@ -17,7 +17,7 @@ To begin configuring, clone the repo as follows:
 git clone https://github.com/aditya1962/Repos
 ```
 
-Then install all node packages as follows
+Then change folder to WebUI folder and run the command to install all node packages as follows
 
 ```cmd
 npm install
